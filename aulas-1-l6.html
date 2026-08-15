@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aulas 1 — Nível 6</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Aulas 1 — Nível 6</h1>
+      <p class="subtitle">Italiano → Português • 10 rodadas</p>
+    </header>
+    <section id="screen-start" class="screen active" aria-labelledby="start-title">
+      <h2 id="start-title">Como funciona</h2>
+      <ul class="rules">
+        <li>Você verá um termo em <strong>italiano</strong>.</li>
+        <li>Escolha a tradução correta em <strong>português</strong>.</li>
+        <li>Ao clicar: <span class="badge wrong">errado = vermelho</span>, <span class="badge correct">certo = verde</span>.</li>
+        <li>São <strong>10 rodadas</strong>. Sua pontuação aparece ao final.</li>
+      </ul>
+      <div class="controls">
+        <a class="btn" href="index.html">← Voltar</a>
+        <button id="btn-start" class="btn primary">Começar</button>
+      </div>
+    </section>
+    <section id="screen-quiz" class="screen" aria-live="polite">
+      <div class="hud">
+        <div id="progress" class="progress" aria-label="Progresso"><div class="bar"></div></div>
+        <div class="stats">
+          <span id="round">Rodada 1/10</span>
+          <span id="score">Score: 0</span>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="prompt">Tradução para:</h2>
+        <div id="term" class="infinitive">—</div>
+        <ol id="choices" class="choices" role="listbox" aria-label="Alternativas"></ol>
+        <div class="controls">
+          <button id="btn-next" class="btn" disabled>Próximo</button>
+        </div>
+      </div>
+    </section>
+    <section id="screen-end" class="screen" aria-labelledby="end-title">
+      <h2 id="end-title">Resultado</h2>
+      <p id="final-text" class="final-text"></p>
+      <div class="actions">
+        <button id="btn-retry" class="btn primary">Jogar novamente</button>
+        <a class="btn" href="index.html">← Voltar</a>
+      </div>
+      <details class="small">
+        <summary>Lista desta sessão</summary>
+        <ul id="used-list"></ul>
+      </details>
+    </section>
+    <footer class="footer">
+      <p><strong>Dica:</strong> Observe o artigo e os acentos no italiano.</p>
+    </footer>
+  </main>
+  <script>window.LEVEL_TARGET = 'L6';</script>
+  <script src="core.js"></script>
+  <script src="aulas-1-data.js"></script>
+  <script src="aulas-1.js"></script>
+</body>
+</html>
