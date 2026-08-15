@@ -10,7 +10,13 @@
     L3: 'Aula 1 — Nível 3',
     L4: 'Aula 1 — Nível 4',
     L5: 'Aula 1 — Nível 5',
-    L6: 'Aula 1 — Nível 6'
+    L6: 'Aula 1 — Nível 6',
+    L7: 'Aula 1 — Nível 7',
+    L8: 'Aula 1 — Nível 8',
+    L9: 'Aula 1 — Nível 9',
+    L10: 'Aula 1 — Nível 10',
+    L11: 'Aula 1 — Nível 11',
+    L12: 'Aula 1 — Nível 12'
   };
 
   QuizCore.createGame(data, {

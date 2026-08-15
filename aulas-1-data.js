@@ -21,6 +21,8 @@ window.AULAS_1_DATA = {
     { it: 'aspettare di', pt: 'esperar para' },
     { it: 'assaggiare', pt: 'experimentar um sabor' },
     { it: 'aula', pt: 'sala de aula' },
+  ],
+  L2: [
     { it: 'autunno', pt: 'outono' },
     { it: 'avere fame', pt: 'estar com fome' },
     { it: 'avere sete', pt: 'estar com sede' },
@@ -42,6 +44,8 @@ window.AULAS_1_DATA = {
     { it: 'canzone', pt: 'música' },
     { it: 'capire', pt: 'entender' },
     { it: 'cappone ave Italiana', pt: 'receita do Veneto' },
+  ],
+  L3: [
     { it: 'cappuccino', pt: 'cappuccino' },
     { it: 'cellulare', pt: 'celular' },
     { it: 'cena', pt: 'jantar (substantivo)' },
@@ -63,9 +67,9 @@ window.AULAS_1_DATA = {
     { it: 'di lingua italiana', pt: 'da língua italiana' },
     { it: 'cravatta', pt: 'gravata' },
     { it: 'cuocere', pt: 'cozinhar' },
-    { it: 'cugino', pt: 'primo' }
   ],
-  L2: [
+  L4: [
+    { it: 'cugino', pt: 'primo' },
     { it: 'da allora', pt: 'desde então' },
     { it: 'da bere', pt: 'para beber' },
     { it: 'da mangiare', pt: 'para comer' },
@@ -86,6 +90,8 @@ window.AULAS_1_DATA = {
     { it: 'fare', pt: 'fazer' },
     { it: 'fare colazione', pt: 'tomar café da manhã' },
     { it: 'febbraio', pt: 'fevereiro' },
+  ],
+  L5: [
     { it: 'festivo', pt: 'feriado' },
     { it: 'finestra', pt: 'janela' },
     { it: 'finire', pt: 'terminar' },
@@ -107,13 +113,13 @@ window.AULAS_1_DATA = {
     { it: 'imparare', pt: 'aprender' },
     { it: 'in corso', pt: 'em presente' },
     { it: 'in Italia', pt: 'na Itália toda' },
+  ],
+  L6: [
     { it: 'invece', pt: 'em vez de' },
     { it: 'influenza', pt: 'gripe' },
     { it: 'informazione', pt: 'informação' },
     { it: 'in torno', pt: 'volta' },
-    { it: 'invito', pt: 'convite' }
-  ],
-  L3: [
+    { it: 'invito', pt: 'convite' },
     { it: 'lago', pt: 'lago' },
     { it: 'lasciare', pt: 'deixar' },
     { it: 'lato', pt: 'lado' },
@@ -130,6 +136,8 @@ window.AULAS_1_DATA = {
     { it: 'male', pt: 'mal' },
     { it: 'magro', pt: 'magro' },
     { it: 'mai', pt: 'nunca' },
+  ],
+  L7: [
     { it: 'manufatto', pt: 'trabalho manual' },
     { it: 'mare', pt: 'mar' },
     { it: 'marmellata', pt: 'geleia' },
@@ -151,12 +159,12 @@ window.AULAS_1_DATA = {
     { it: 'notte', pt: 'noite' },
     { it: 'novembre', pt: 'novembro' },
     { it: 'nuovo', pt: 'novo' },
+  ],
+  L8: [
     { it: 'odore', pt: 'cheiro' },
     { it: 'oggi', pt: 'hoje' },
     { it: 'ogni', pt: 'cada' },
-    { it: 'ottobre', pt: 'outubro' }
-  ],
-  L4: [
+    { it: 'ottobre', pt: 'outubro' },
     { it: 'pace', pt: 'paz' },
     { it: 'paesaggio', pt: 'paisagem' },
     { it: 'paese', pt: 'país' },
@@ -174,6 +182,8 @@ window.AULAS_1_DATA = {
     { it: 'per piacere', pt: 'por favor' },
     { it: 'perdere', pt: 'perder' },
     { it: 'periferia', pt: 'periferia' },
+  ],
+  L9: [
     { it: 'periodo', pt: 'período' },
     { it: 'pesca', pt: 'pêssego' },
     { it: 'più', pt: 'mais' },
@@ -195,11 +205,11 @@ window.AULAS_1_DATA = {
     { it: 'provincia', pt: 'província' },
     { it: 'qualche volta', pt: 'às vezes' },
     { it: 'qualità', pt: 'qualidade' },
+  ],
+  L10: [
     { it: 'quartiere', pt: 'bairro' },
     { it: 'quello', pt: 'aquele / aquilo' },
-    { it: 'quindi', pt: 'então' }
-  ],
-  L5: [
+    { it: 'quindi', pt: 'então' },
     { it: 'rappresentare', pt: 'representar' },
     { it: 'regalare', pt: 'presentear' },
     { it: 'regione', pt: 'região' },
@@ -218,6 +228,8 @@ window.AULAS_1_DATA = {
     { it: 'sapere', pt: 'saber' },
     { it: 'ho saputo che', pt: 'soube que' },
     { it: 'scambiare', pt: 'trocar' },
+  ],
+  L11: [
     { it: 'scambio', pt: 'troca' },
     { it: 'scegliere', pt: 'escolher' },
     { it: 'scendere', pt: 'descer' },
@@ -239,15 +251,15 @@ window.AULAS_1_DATA = {
     { it: 'spazzatura', pt: 'lixo' },
     { it: 'spegnere', pt: 'desligar / apagar' },
     { it: 'spettacolo', pt: 'show / espetáculo' },
+  ],
+  L12: [
     { it: 'spiaggia', pt: 'praia' },
     { it: 'sprinto', pt: 'lanche' },
     { it: 'stagione', pt: 'estação' },
     { it: 'stanco', pt: 'cansado' },
     { it: 'stare bene', pt: 'estar bem' },
     { it: 'stare male', pt: 'estar mal / passar mal' },
-    { it: 'svegliarsi', pt: 'acordar' }
-  ],
-  L6: [
+    { it: 'svegliarsi', pt: 'acordar' },
     { it: 'tanto', pt: 'tanto' },
     { it: 'tanto... quanto...', pt: 'tanto... quanto...' },
     { it: 'tassa', pt: 'imposto' },
@@ -260,6 +272,6 @@ window.AULAS_1_DATA = {
     { it: 'tramezzino', pt: 'tipo de sanduíche' },
     { it: 'tramonto', pt: 'pôr do sol' },
     { it: 'trasporto', pt: 'transporte' },
-    { it: 'trattoria', pt: 'trattoria' }
+    { it: 'trattoria', pt: 'trattoria' },
   ]
 };
