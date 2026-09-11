@@ -730,6 +730,100 @@ body {
   font-weight: 700;
 }
 
+.verb-endings {
+  text-align: left;
+}
+
+.verb-endings .study-tips,
+.verb-endings .table-wrapper {
+  margin: 20px 0;
+}
+
+.verb-endings .study-tips p {
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+
+.conjugation-groups {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.conjugation-groups > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px;
+  background: rgba(26, 31, 46, 0.45);
+  border: 1px solid rgba(51, 65, 85, 0.8);
+  border-radius: 12px;
+}
+
+.conjugation-groups span {
+  color: #c4b5fd;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.conjugation-groups small {
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+.verb-steps {
+  margin: 0 0 18px;
+  padding-left: 24px;
+  color: var(--muted);
+}
+
+.verb-steps li {
+  padding: 6px 0;
+}
+
+.verb-steps strong,
+.verb-examples strong,
+.verb-endings td strong {
+  color: #f1f5f9;
+}
+
+.verb-endings .table-wrapper h3 {
+  margin: 0 0 18px;
+  color: #f1f5f9;
+}
+
+.verb-endings .table-wrapper th small {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.verb-endings .table-wrapper tbody td:first-child {
+  color: #c4b5fd;
+  font-weight: 700;
+}
+
+.verb-examples ul {
+  margin: 0;
+}
+
+.verb-examples li {
+  color: var(--muted);
+}
+
+.study-note {
+  padding-top: 14px;
+  border-top: 1px solid rgba(51, 65, 85, 0.45);
+}
+
+.practice-example {
+  padding: 16px;
+  margin: 18px 0;
+  border-left: 3px solid var(--accent);
+  background: rgba(26, 31, 46, 0.45);
+  color: #e9d5ff;
+  overflow-wrap: anywhere;
+}
+
 .table-search {
   margin-bottom: 20px;
 }
@@ -864,6 +958,14 @@ body {
   .study-grid {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+
+  .conjugation-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .verb-endings .table-wrapper {
+    padding: 20px 12px;
   }
   
   .study-card {
