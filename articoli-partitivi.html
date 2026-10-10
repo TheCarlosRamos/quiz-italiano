@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Articoli Partitivi — Quiz Italiano</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <h1>Articoli Partitivi — Quiz Italiano</h1>
+      <p class="subtitle">Complete as frases • 25 rodadas</p>
+    </header>
+
+    <section id="screen-start" class="screen active" aria-labelledby="start-title">
+      <h2 id="start-title">Como funciona</h2>
+      <ul class="rules">
+        <li>Complete cada frase italiana escolhendo o <strong>artigo partitivo</strong> correto.</li>
+        <li>As alternativas são: <strong>del, dello, della, dell’, dei, degli, delle</strong>.</li>
+        <li>Ao escolher, a resposta certa aparece em verde e sua pontuação é atualizada.</li>
+        <li>São <strong>25 frases</strong>. Sua pontuação aparece ao final.</li>
+      </ul>
+      <div class="controls">
+        <a class="btn" href="index.html">← Voltar</a>
+        <button id="btn-start" class="btn primary">Começar</button>
+      </div>
+    </section>
+
+    <section id="screen-quiz" class="screen" aria-live="polite">
+      <div class="hud">
+        <div id="progress" class="progress" aria-label="Progresso"><div class="bar"></div></div>
+        <div class="stats">
+          <span id="round">Rodada 1/25</span>
+          <span id="score">Score: 0</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="prompt">Complete a frase com o artigo partitivo:</h2>
+        <div id="sentence" class="infinitive" lang="it">—</div>
+        <ol id="choices" class="choices" role="listbox" aria-label="Artigos partitivos"></ol>
+        <div class="controls">
+          <button id="btn-next" class="btn" disabled>Próximo</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-end" class="screen" aria-labelledby="end-title">
+      <h2 id="end-title">Resultado</h2>
+      <p id="final-text" class="final-text"></p>
+      <div class="actions">
+        <button id="btn-retry" class="btn primary">Jogar novamente</button>
+        <a class="btn" href="index.html">← Voltar</a>
+      </div>
+      <details class="small">
+        <summary>Frases desta sessão</summary>
+        <ul id="used-list"></ul>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <p><strong>Dica:</strong> O artigo partitivo concorda em gênero e número com o substantivo que vem depois dele.</p>
+    </footer>
+  </main>
+
+  <script src="articoli-partitivi.js"></script>
+</body>
+</html>
