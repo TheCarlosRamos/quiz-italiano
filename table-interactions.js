@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'sons': 'animali.html', // Quiz de vocabulário como alternativa
         'tempos_verbais': 'passato-prossimo-quiz.html',
         'futuro_condicional_irreg': 'future-simple.html',
-        'passado_com_essere': 'passato-prossimo-quiz.html'
+        'passado_com_essere': 'passato-prossimo-quiz.html',
+        'preposizioni-articolate-di': 'articoli-partitivi.html'
       };
       
       const targetQuiz = quizMap[currentPage] || 'index.html';
